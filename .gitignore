@@ -2,3 +2,5 @@
 /out/
 /install/
 .vs/
+/Samples/Temp_and_Humidity_DME280/.vscode
+/MT3620_Grove_Shield_Library/out/ARM-Debug-3
