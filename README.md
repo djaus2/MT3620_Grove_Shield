@@ -1,6 +1,6 @@
 # About Azure Sphere MT3620 Grove Shield Library
 
-This is library for Azure Sphere MT3620 Grove Shield, the shield enhences Azure Sphere by adding I2C interface and Analog input. 
+This is a library for [Azure Sphere MT3620 Grove Shield](http://wiki.seeedstudio.com/Grove_Starter_Kit_for_Azure_Sphere_MT3620_Development_Kit). The shield enhences [MT3620](http://wiki.seeedstudio.com/Azure_Sphere_MT3620_Development_Kit/) version of thye Azure Sphere by adding I2C interface and Analog input. 
 Original repository: [MT3620_Grove_Shield](https://github.com/Seeed-Studio/MT3620_Grove_Shield)
 
 **Note:** _You now have to open Az Spehere projects as CMake projects, not as VS projects_
@@ -62,7 +62,7 @@ When using a hardware definition file, you must use an identifier for __app_mani
 - Sensors/GroveLightSensor.h
 
 
-## Usage of the library, see Example - Temp and Huminidy SHT31
+## Usage of the library, see Example - Temp and Huminidy BME280
 
 1. Add headers
 
@@ -88,10 +88,10 @@ void* bme280 = GroveTempHumiBaroBME280_Open(i2cFd);
 4. Read temp and humidiy from the sensor
    
 ```C
-        GroveTempHumiBaroBME280_ReadTemperature(bme280);
-        GroveTempHumiBaroBME280_ReadPressure(bme280);
-        GroveTempHumiBaroBME280_ReadHumidity(bme280);
+    GroveTempHumiBaroBME280_ReadTemperature(bme280);
+    GroveTempHumiBaroBME280_ReadPressure(bme280);
+    GroveTempHumiBaroBME280_ReadHumidity(bme280);
     float temp = GroveTempHumiBaroBME280_GetTemperature(bme280);
     float humid = GroveTempHumiBaroBME280_GetHumidity(bme280);
-        float press = GroveTempHumiBaroBME280_GetPressure(bme280)
+    float press = GroveTempHumiBaroBME280_GetPressure(bme280)
 ```
