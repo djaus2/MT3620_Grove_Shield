@@ -1,15 +1,15 @@
 # About Azure Sphere MT3620 Grove Shield Library
 
-This is a library for the [Azure Sphere MT3620 Grove Shield](http://wiki.seeedstudio.com/Grove_Starter_Kit_for_Azure_Sphere_MT3620_Development_Kit). The shield enhances [MT3620](http://wiki.seeedstudio.com/Azure_Sphere_MT3620_Development_Kit/) version of thye Azure Sphere by adding I2C interface and Analog input. 
+This is a library for the [Azure Sphere MT3620 Grove Shield](http://wiki.seeedstudio.com/Grove_Starter_Kit_for_Azure_Sphere_MT3620_Development_Kit). The shield enhances the [MT3620](http://wiki.seeedstudio.com/Azure_Sphere_MT3620_Development_Kit/) version of thye Azure Sphere by adding an I2C interface and Analog input. 
 Original repository: [Azure Sphere MT3620 Grove Shield Library](https://github.com/Seeed-Studio/MT3620_Grove_Shield) on GitHub.
 
-**Note:** _You now have to open Az Spehere projects as CMake projects, not as VS projects_
+**Note:** _You now have to open Az Sphere projects as CMake projects, not as VS projects_
 
 The following samples have been added/modified in this repository:
 - Samples\Temp_and_Humidity_DME280
   - Reads the temperature, pressure and humidity via I2C using a DME280 connected to the Grove Azure Sphere MT3620 Shield
-  - Nb: This shield implemenets its own I2C and communicates with the Az Spehere via its UART.
-  - Nb2: The original driver in the repository only implmenets temperature. That functionality has been extended to include pressure and humidity.
+  - Nb: This shield implements its own I2C and communicates with the Az Sphere via its UART.
+  - Nb2: The original driver in the repository only implements temperature. That functionality has been extended to include pressure and humidity.
 
  
 ## Requirements
