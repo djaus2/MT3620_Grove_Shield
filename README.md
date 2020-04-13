@@ -10,6 +10,12 @@ The following samples have been added/modified in this repository:
   - Reads the temperature, pressure and humidity via I2C using a DME280 connected to the Grove Azure Sphere MT3620 Shield
   - Nb: This shield implements its own I2C and communicates with the Az Sphere via its UART.
   - Nb2: The original driver in the repository only implements temperature. That functionality has been extended to include pressure and humidity.
+  - I (carefully) used a BME280 that I had for other uses (non Grove) by carefully connected its pins to a Grove pin wire.
+    - Black: Gnd
+    - Red 3.3v 
+    - White: SDA
+    - Yellow: SCL
+    - I also connected SD0 to 3.3v so that the I2C address is 0x77 <<1
 
  
 ## Requirements
