@@ -1,9 +1,9 @@
 # About Azure Sphere MT3620 Grove Shield Library
 
 This is library for Azure Sphere MT3620 Grove Shield, the shield enhences Azure Sphere by adding I2C interface and Analog input. 
-Original repository: [MT3620_Grove_Shield](https://github.com/Seeed-Studio/MT3620_Grove_Shield
+Original repository: [MT3620_Grove_Shield](https://github.com/Seeed-Studio/MT3620_Grove_Shield)
 
-**Note:** _You now have toopen Az Spehere projects as CMake projects, not as VS projects_
+**Note:** _You now have to open Az Spehere projects as CMake projects, not as VS projects_
 
 The following samples have been added/modified in this repository:
 - Samples\Temp_and_Humidity_DME280
