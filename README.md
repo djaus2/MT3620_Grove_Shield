@@ -1,6 +1,6 @@
 # About Azure Sphere MT3620 Grove Shield Library
 
-This is a library for [Azure Sphere MT3620 Grove Shield](http://wiki.seeedstudio.com/Grove_Starter_Kit_for_Azure_Sphere_MT3620_Development_Kit). The shield enhences [MT3620](http://wiki.seeedstudio.com/Azure_Sphere_MT3620_Development_Kit/) version of thye Azure Sphere by adding I2C interface and Analog input. 
+This is a library for the [Azure Sphere MT3620 Grove Shield](http://wiki.seeedstudio.com/Grove_Starter_Kit_for_Azure_Sphere_MT3620_Development_Kit). The shield enhances [MT3620](http://wiki.seeedstudio.com/Azure_Sphere_MT3620_Development_Kit/) version of thye Azure Sphere by adding I2C interface and Analog input. 
 Original repository: [Azure Sphere MT3620 Grove Shield Library](https://github.com/Seeed-Studio/MT3620_Grove_Shield) on GitHub.
 
 **Note:** _You now have to open Az Spehere projects as CMake projects, not as VS projects_
@@ -52,7 +52,7 @@ When using a hardware definition file, you must use an identifier for __app_mani
 - Grove.h
 - Sensors/Grove4DigitDisplay.h
 - Sensors/GroveRelay.h
-- ** Sensors/GroveTempHumiBaroBME280.h **
+- <b> Sensors/GroveTempHumiBaroBME280.h </b> <-- This has been extended.
 - Sensors/GroveTempHumiSHT31.h
 - Sensors/GroveAD7992.h
 - Sensors/GroveOledDisplay96x96.h
