@@ -16,6 +16,7 @@ The following samples have been added/modified in this repository:
     - White: SDA
     - Yellow: SCL
     - I also connected SD0 to 3.3v so that the I2C address is 0x77 <<1
+    - PS: I have also ordered a Grove version.
 
  
 ## Requirements
