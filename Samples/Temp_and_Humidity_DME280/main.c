@@ -66,7 +66,7 @@ int main(int argc, char *argv[])
         GroveTempHumiBaroBME280_ReadHumidity(bme280);
 		float temp = GroveTempHumiBaroBME280_GetTemperature(bme280);
 		float humid = GroveTempHumiBaroBME280_GetHumidity(bme280);
-		Log_Debug("Temperature: %.1fC\n", temp);
+		Log_Debug("\nTemperature: %.1fC\n", temp);
 		Log_Debug("Humidity: %.1f\%c\n", humid, 0x25);
         float press = GroveTempHumiBaroBME280_GetPressure(bme280);
         Log_Debug("Pressure: %.1fhPa\n", press);

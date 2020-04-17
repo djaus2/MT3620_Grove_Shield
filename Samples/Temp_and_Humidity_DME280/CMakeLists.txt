@@ -2,7 +2,7 @@
 #  Licensed under the MIT License.
 
 cmake_minimum_required (VERSION 3.8)
-project (grove-temp-humidity-sht31 C)
+project (grove-temp-humidity-bme280 C)
 
 add_subdirectory("../../MT3620_Grove_Shield_Library" out)
 # Create executable
